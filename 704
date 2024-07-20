@@ -1,0 +1,32 @@
+#🔗 题目链接：[leetcode 704](https://leetcode.cn/problems/binary-search/)
+
+#解法：二分搜索
+
+核心：
+1） 建立两个边界
+2） 根据查找结果更改边界
+
+## 1 左闭右闭
+```C++
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int left = 0;
+        int right = nums.size() - 1;
+        while (left <= right) {
+            int mid = (left + right)/2;
+            if (nums[mid] > target) right = mid - 1; 
+            else if(nums[mid] < target) left = mid + 1;
+            else return mid;
+        }
+        return -1;
+    }
+};
+```
+**注意：** 由于这里是 中间值 mid 与 目标值 作比较，所以在更改边界时已知原中间值时不满足条件了，
+所以**左边界 left =  mid -1，右边界 right = mid + 1**跳过中间值继续缩放
+❌ 错误写法：
+```C++
+if (nums[mid] > target) right = mid; 
+else if(nums[mid] < target) left = mid;
+```
