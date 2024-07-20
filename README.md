@@ -2,4 +2,4 @@
 # 使用语言：C++ 为主
 
 ## 1 数组
-**二分搜索：** [704](https://github.com/UKON09/leetcode/704)
+**二分搜索：** [704](https://github.com/UKON09/leetcode/blob/main/704.md)
