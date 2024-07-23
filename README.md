@@ -4,7 +4,7 @@
 *：有值得注意的写法；💡：有灵光一闪
 
 ## 1️⃣ 数组
-**搜索：** [704 二分搜索 *](https://github.com/UKON09/leetcode/blob/main/704.md) [209 寻找满足条件的最小连续数组 💡](https://github.com/UKON09/leetcode/blob/main/209.md)
+**搜索：** [704 二分搜索 *](https://github.com/UKON09/leetcode/blob/main/704.md) 、[209 寻找满足条件的最小连续数组 💡](https://github.com/UKON09/leetcode/blob/main/209.md)
 
 **删除：** [27 删除所有要求的元素](https://github.com/UKON09/leetcode/blob/main/27.md)
 
