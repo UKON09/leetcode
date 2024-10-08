@@ -16,4 +16,4 @@
 
 **查找：**[**707 链表操作大杂烩*💡💯**l](https://github.com/UKON09/leetcode/blob/main/707.md)
 
-**顺序变更：**[206 反转链表*💯](https://github.com/UKON09/leetcode/blob/main/206.md)、[24 相邻节点两两交换💡](https://github.com/UKON09/leetcode/blob/main/24.md)
+**顺序变更：**[206 反转链表*💯](https://github.com/UKON09/leetcode/blob/main/206.md)、[24 相邻节点两两交换*💡💯](https://github.com/UKON09/leetcode/blob/main/24.md)
